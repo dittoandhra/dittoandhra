@@ -54,5 +54,6 @@ function showlatestposts(json) {
 }
 }
  document.write('</div>');
+if (posts_date == true) document.write('<div class="post-date">' + monthnames[parseInt(showmonth,10)] + ' ' + showday + ' ' + showyear + '</div>');
 }
 }
